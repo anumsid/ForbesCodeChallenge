@@ -46,7 +46,7 @@ $mobile-breakpoint: 450px;
 }
 
 .backdrop {
-  display: none;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
@@ -58,7 +58,7 @@ $mobile-breakpoint: 450px;
 }
 
 .overlay {
-  display: none;
+  display: block;
   position: fixed;
   height: 400px;
   width: 400px;
