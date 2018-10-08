@@ -2,6 +2,8 @@
  Setup
  ECMA2017 was used
  Node Version - v6.11.2
+ Google Chrome Version 67.0.3396.99
+ API- https://api.unsplash.com/. Unsplash API was used, which only allowed 30 photos per call. So the workaround was to call twice at app init, and then cache the results.
 
  Dependencies
  There are no dependencies and no frameworks were used.
